@@ -135,6 +135,9 @@ export default {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-subtle': 'var(--gradient-subtle)'
 			},
+			background: {
+				'gradient-hero': 'var(--gradient-hero)',
+			},
 			boxShadow: {
 				'document': 'var(--shadow-document)',
 				'floating': 'var(--shadow-floating)',
