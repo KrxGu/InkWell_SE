@@ -62,7 +62,7 @@ const FeaturesSection = () => {
   ];
 
   return (
-    <section id="features" className="py-24 bg-gradient-dark border-t border-border/10">
+    <section id="features" className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
@@ -121,7 +121,7 @@ const FeaturesSection = () => {
         </div>
 
         {/* Technical Excellence */}
-        <Card className="p-10 lg:p-16 shadow-purple-glow bg-gradient-primary border border-primary/30">
+        <Card className="p-8 lg:p-12 shadow-floating bg-gradient-primary">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">
