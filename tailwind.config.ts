@@ -97,7 +97,7 @@ export default {
 				'fade-in': {
 					from: {
 						opacity: '0',
-						transform: 'translateY(10px)'
+						transform: 'translateY(20px)'
 					},
 					to: {
 						opacity: '1',
@@ -106,7 +106,7 @@ export default {
 				},
 				'slide-up': {
 					from: {
-						transform: 'translateY(20px)',
+						transform: 'translateY(30px)',
 						opacity: '0'
 					},
 					to: {
@@ -116,29 +116,49 @@ export default {
 				},
 				'pulse-glow': {
 					'0%, 100%': {
-						boxShadow: '0 0 20px hsl(var(--primary-glow) / 0.3)'
+						boxShadow: '0 0 20px hsl(262 83% 58% / 0.4)'
 					},
 					'50%': {
-						boxShadow: '0 0 30px hsl(var(--primary-glow) / 0.5)'
+						boxShadow: '0 0 40px hsl(262 83% 58% / 0.6)'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0px)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
+				},
+				'glow': {
+					'0%, 100%': {
+						filter: 'brightness(1) saturate(1)'
+					},
+					'50%': {
+						filter: 'brightness(1.2) saturate(1.3)'
 					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.5s ease-out',
-				'slide-up': 'slide-up 0.6s ease-out',
-				'pulse-glow': 'pulse-glow 2s ease-in-out infinite'
+				'fade-in': 'fade-in 0.6s ease-out',
+				'slide-up': 'slide-up 0.8s ease-out',
+				'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
+				'float': 'float 6s ease-in-out infinite',
+				'glow': 'glow 2s ease-in-out infinite'
 			},
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-subtle': 'var(--gradient-subtle)'
+				'gradient-dark': 'var(--gradient-dark)',
+				'gradient-purple': 'var(--gradient-purple)'
 			},
 			boxShadow: {
 				'document': 'var(--shadow-document)',
 				'floating': 'var(--shadow-floating)',
-				'glow': 'var(--shadow-glow)'
+				'glow': 'var(--shadow-glow)',
+				'purple-glow': 'var(--shadow-purple-glow)'
 			}
 		}
 	},

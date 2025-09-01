@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import UploadSection from "@/components/UploadSection";
 import FeaturesSection from "@/components/FeaturesSection";
+import TrustedBySection from "@/components/TrustedBySection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -10,6 +11,7 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        <TrustedBySection />
         <UploadSection />
         <FeaturesSection />
       </main>

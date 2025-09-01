@@ -42,7 +42,7 @@ const UploadSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-24 bg-gradient-dark border-t border-border/20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
@@ -53,8 +53,8 @@ const UploadSection = () => {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <Card className="p-8 shadow-document">
+        <div className="max-w-5xl mx-auto">
+          <Card className="p-10 shadow-purple-glow border border-primary/20 bg-card/50 backdrop-blur-xl">
             <div className="grid lg:grid-cols-2 gap-8">
               {/* Upload Area */}
               <div className="space-y-6">
