@@ -16,27 +16,24 @@ const Header = () => {
           
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-8">
+            <a href="#how-it-works" className="text-muted-foreground hover:text-foreground transition-colors">
+              How It Works
+            </a>
             <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
               Features
             </a>
-            <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
-              Pricing
+            <a href="#upload" className="text-muted-foreground hover:text-foreground transition-colors">
+              Try Now
             </a>
             <a href="#docs" className="text-muted-foreground hover:text-foreground transition-colors">
               API Docs
-            </a>
-            <a href="#support" className="text-muted-foreground hover:text-foreground transition-colors">
-              Support
             </a>
           </nav>
           
           {/* Actions */}
           <div className="flex items-center gap-3">
-            <Button variant="ghost" size="sm" className="hidden sm:flex">
-              Sign In
-            </Button>
             <Button variant="hero" size="sm">
-              Get Started
+              Start Translating - Free
             </Button>
             
             {/* Mobile menu */}

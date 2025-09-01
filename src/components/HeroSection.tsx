@@ -17,7 +17,7 @@ const HeroSection = () => {
           <div className="animate-fade-in">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Zap className="w-4 h-4" />
-              Enterprise-grade PDF Translation
+              Free • No Sign-up Required
             </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
@@ -29,15 +29,15 @@ const HeroSection = () => {
             
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl">
               Transform your documents with AI-powered translation that maintains exact formatting, 
-              fonts, and visual elements across 100+ languages.
+              fonts, and visual elements across 100+ languages. No registration needed - just upload and translate.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button variant="hero" size="lg" className="text-lg px-8 py-4 h-auto">
-                Start Translating <ArrowRight className="w-5 h-5 ml-2" />
+                Try It Free Now <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-4 h-auto">
-                View Demo
+                See How It Works
               </Button>
             </div>
             
