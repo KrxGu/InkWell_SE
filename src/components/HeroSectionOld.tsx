@@ -163,3 +163,48 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+                  <div className="font-semibold text-foreground">Layout Preserved</div>
+                  <div className="text-sm text-muted-foreground">Pixel-perfect formatting</div>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center">
+                  <Languages className="w-5 h-5 text-accent" />
+                </div>
+                <div>
+                  <div className="font-semibold text-foreground">100+ Languages</div>
+                  <div className="text-sm text-muted-foreground">Including RTL & CJK</div>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 bg-success/10 rounded-lg flex items-center justify-center">
+                  <Shield className="w-5 h-5 text-success" />
+                </div>
+                <div>
+                  <div className="font-semibold text-foreground">Enterprise Security</div>
+                  <div className="text-sm text-muted-foreground">SOC 2 compliant</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Right column - Illustration */}
+          <div className="lg:block animate-slide-up">
+            <div className="relative">
+              <img 
+                src={heroIllustration} 
+                alt="PDF Translation Process Illustration" 
+                className="w-full h-auto rounded-2xl shadow-floating"
+              />
+              <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-hero rounded-xl shadow-glow animate-pulse-glow opacity-80"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;

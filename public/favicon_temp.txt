@@ -1,0 +1,3 @@
+# This is a placeholder - the actual favicon.ico will be created as a binary file
+# The favicon represents a translation icon with blue background and "x A" text
+# This file will be replaced with the proper binary content
